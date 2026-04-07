@@ -1,0 +1,32 @@
+[project]
+name = "automated-trading"
+version = "0.1.0"
+description = "Multi-AI autonomous trading arena for NASDAQ 100 stocks"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+dependencies = [
+    "langchain>=1.0.2",
+    "langchain-openai>=1.0.1",
+    "langchain-mcp-adapters>=0.1.0",
+    "langgraph>=0.3.0",
+    "fastmcp>=2.12.5",
+    "python-dotenv>=1.0.0",
+    "requests>=2.31.0",
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+]
+
+[project.scripts]
+automated-trading = "main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["agent", "agent_tools", "tools", "prompts"]
+
+[dependency-groups]
+dev = []
