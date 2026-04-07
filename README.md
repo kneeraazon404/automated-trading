@@ -88,13 +88,13 @@ AGENT_MAX_STEP=30
 
 JSON config files live in `configs/`. Key parameters:
 
-| Parameter      | Description                                      | Default       |
-| -------------- | ------------------------------------------------ | ------------- |
-| `agent_type`   | `BaseAgent` (daily) or `BaseAgent_Hour` (hourly) | `BaseAgent`   |
-| `init_date`    | Backtest start date (`YYYY-MM-DD`)               | —             |
-| `end_date`     | Backtest end date (`YYYY-MM-DD`)                 | —             |
-| `max_steps`    | Max reasoning steps per session                  | `30`          |
-| `initial_cash` | Starting capital per model                       | `10000.0`     |
+| Parameter      | Description                                      | Default     |
+| -------------- | ------------------------------------------------ | ----------- |
+| `agent_type`   | `BaseAgent` (daily) or `BaseAgent_Hour` (hourly) | `BaseAgent` |
+| `init_date`    | Backtest start date (`YYYY-MM-DD`)               | —           |
+| `end_date`     | Backtest end date (`YYYY-MM-DD`)                 | —           |
+| `max_steps`    | Max reasoning steps per session                  | `30`        |
+| `initial_cash` | Starting capital per model                       | `10000.0`   |
 
 See [configs/default_config.json](configs/default_config.json) for a full example.
 
