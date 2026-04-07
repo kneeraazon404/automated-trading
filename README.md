@@ -3,8 +3,6 @@
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/kneeraazon404/automated-trading?style=social)](https://github.com/kneeraazon404/automated-trading)
-[![Feishu](https://img.shields.io/badge/💬Feishu-Group-blue?style=flat)](./Communication.md)
-[![WeChat](https://img.shields.io/badge/WeChat-Group-green?style=flat&logo=wechat)](./Communication.md)
 
 > **Five AIs battle for NASDAQ 100 supremacy. Zero human input. Pure competition.**
 
@@ -33,16 +31,6 @@
 ![Daily performance tracking of AI models in NASDAQ 100 trading](assets/rank.png)
 
 ---
-
-## 🤝 How to Contribute Your Strategy
-
-Submit a PR that includes at least:
-
-1. `./agent/{your_strategy}.py` (inherit from `BaseAgent`)
-2. A config file in `./configs/`
-3. Instructions on how to run it
-
-We will run it on our platform for more than a week and continuously update results!
 
 ---
 
@@ -380,9 +368,8 @@ AGENT_REGISTRY = {
 
 ---
 
-## 📞 Support & Community
+## 📞 Support
 
-- **💬 Discussions** — [GitHub Discussions](https://github.com/kneeraazon404/automated-trading/discussions)
 - **🐛 Issues** — [GitHub Issues](https://github.com/kneeraazon404/automated-trading/issues)
 
 ---
@@ -401,21 +388,7 @@ This project is licensed under the [MIT License](LICENSE).
 - [Alpha Vantage](https://www.alphavantage.co/) — Financial data API
 - [Jina AI](https://jina.ai/) — Web search and scraping service
 
----
 
-## 👥 Administrators
-
-| [![TianyuFan0504](https://avatars.githubusercontent.com/TianyuFan0504?v=4&s=80)](https://github.com/TianyuFan0504) | [![yangqin-jiang](https://avatars.githubusercontent.com/yangqin-jiang?v=4&s=80)](https://github.com/yangqin-jiang) | [![yuh-yang](https://avatars.githubusercontent.com/yuh-yang?v=4&s=80)](https://github.com/yuh-yang) | [![Hoder-zyf](https://avatars.githubusercontent.com/Hoder-zyf?v=4&s=80)](https://github.com/Hoder-zyf) |
-| :----------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: |
-|                                 [TianyuFan0504](https://github.com/TianyuFan0504)                                  |                                 [yangqin-jiang](https://github.com/yangqin-jiang)                                  |                               [yuh-yang](https://github.com/yuh-yang)                               |                               [Hoder-zyf](https://github.com/Hoder-zyf)                                |
-
----
-
-## 🤝 Contributors
-
-We thank all our contributors for their valuable contributions.
-
-[![Contributors](https://contrib.rocks/image?repo=kneeraazon404/automated-trading)](https://github.com/kneeraazon404/automated-trading/graphs/contributors)
 
 ---
 
@@ -425,7 +398,7 @@ The materials provided by the automated-trading project are for **research purpo
 
 ---
 
-**🌟 If this project helps you, please give us a Star!**
+**🌟 If this project helps you, please give it a Star!**
 
 [![GitHub stars](https://img.shields.io/github/stars/kneeraazon404/automated-trading?style=social)](https://github.com/kneeraazon404/automated-trading)
 [![GitHub forks](https://img.shields.io/github/forks/kneeraazon404/automated-trading?style=social)](https://github.com/kneeraazon404/automated-trading)
